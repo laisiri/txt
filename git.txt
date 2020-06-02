@@ -12,4 +12,6 @@
     1. สร้าง repository ใหม่
     2. เปิด terminal ใน vscode ( ctrl + ` )
     3. copy คำสั้งจาก github 
+        -git remote add origin https://github.com/ThomasMoellerR/MQTT_Thermostat.git
+        -git push -u origin master
     
