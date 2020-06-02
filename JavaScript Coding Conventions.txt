@@ -1,0 +1,152 @@
+JavaScript Coding Conventions
+ข้อตกลงในการเขียนโปรแกรมจาวาสคริปท์
+
+Coding Conventions are style guidelines for programming.  They typically cover:
+ข้อตกลงในการเขียนโปรแกรมจาวาสคริปท์ คือข้อแนะนำการจัดรูปแบบในการเขียนโปรแกรม โดยจะครอบคลุมถึง
+
+    Naming and declaration rules for variables and functions.
+    การตั้งชื่อและกฎการประกาศตัวแปรและฟังชั่น
+
+    Rules for the use of white space, indentation, and comments.
+    กฎการใช้ช่องว่าง ย่อหน้าและหมายเหตุ
+
+    Programming practices and principles
+    การปฎิบัติและหลักการในการเขียนโปรแกรม
+
+Coding conventions secure quality:
+ข้อตกลงในการเขียนโปรแกรมจาวาสคริปท์ให้มีคุณภาพ และปลอดภัย
+
+    Improves code readability
+    ปรับปรุงโค็ดให้อ่านง่าย
+
+    Make code mainternance easier
+    เขียนโค็ดให้บำรุงรักษาง่าย
+
+Coding conventions can be documented rules for teams to follow, or just be your individual coding practice.
+ข้อตกลงในการโค็ดสามารถเป็นกฎในการทำงานร่วมกันของทีมงานหรือการปฎิบัติงานคนเดียว
+
+This page describes the general JavaScript code conventions used by W3Schools.
+ในหน้านี้เป็นการอธิบายข้อตกลงทั่วไปในการเขียนโค็ดจาวาสคริปท์ใช้โดย W3Schools
+
+You should also read the next chapter "Best Practices",and learn how to avoid coding pitfalls.
+ในหน้าต่อไปเรื่อง"การปฎิบัติที่ดีในการเขียนโปรแกรมและศึกษาข้อควรละเว้นในการเขียนโปรแกรมที่จะทำให้เกิดข้อผิดพลาด
+
+Variable Names
+การตั้งชื่อตัวแปร
+
+At W3Schools we use camelCase for identifier names( variables and functions)
+เราจะใช้ camelCase ในการตั้งชื่อตัวแปรและฟังชั่นส์
+
+    -All names start with a letter.
+     ชื่อต้องเริ่มต้นด้วยตัวอักษร
+    
+    -Names are case sensitive (y and Y are different variables)
+     ตัวอักษรตัวเล็กตัวใหญ่มีค่าต่างกัน
+    
+    -Reserved words (like JavaScript keywords) cannot be use as names
+     keywords ไม่สามารถมาต้ั้งชื่อได้  
+
+    -At the bottom of this page, you will find a wider discussion about naming rules.
+     ส่วนท้ายของหน้านี้จะอธิบายเพิ่มเติมเกี่ยวกับการตั้งชื่อ
+
+
+    -Spaces Around Operators
+    ช่องว่างรอบตัวดำเนินการ
+Always put spaces around operators ( = + - /), and after commas:
+เราจะใช้ช่องว่างรอบตัวดำเนินการ และหลังเครื่องหมายคอมม่า
+
+var x = y + z;
+
+Code indentation
+การย่อหน้า
+
+Always use 2 spaces for indentation of code blocks:
+เว้นช่องว่าง 2ช่องในการย่อหน้าและ code blocks
+
+function toCelsius(fahrenheit) {
+
+   return (5/9) * (fahrenheit - 32); 
+
+}
+
+***Do not use tabs (tabulators) for indentation. Different editor interpret tabs differently.
+***อย่าใช้ปุ่ม tabs ในการย่อหน้า เพระในโปรแกรมอิดิเตอร์ค่าของปุ่มTAG ต่างกัน
+
+Statement Rules
+กฎการใช้เขียน statement
+
+General rules for simple statement with a semicolon.
+กฎทั่วไปในการใช้ semicolon ใน statement
+
+    - Always end a simple statement with a semicolon.
+    จบประโยคด้วยเครื่องหมาย semicollon เสมอ
+
+General rules for complex(compound) statement:
+กฎทั่วไปในการใช้ complex statement
+    -   Put the opening bracket at the end of the first line.
+        ใส่วงเล็บเปิดก่อนจบบรรทัดแรก
+
+    -   Use one space before the opening bracket.
+        ใส่ช่องว่างหนึ่งช่องก่อนวงเล็บเปิด
+
+    -   Put the closing bracket on a new line, without leading spaces.
+        ใส่วงเล็บปิดบนบรรทัดใหม่ไม่ต้องใส่ช่องว่างหน้าวงเล็บ
+
+    -   Do not end a complex statement with a semicollon.
+        ไม่ต้องใส่เครื่องหมาย semicollon ตอนจบ complex statement
+
+
+Object Rules
+
+Generals rules for Object definitions:
+
+    -   Place the opening bracket on the same line as the object name.
+    -   Use colon plus one space between each property and its value.
+    -   Use quotes around string values, not around numeric values.
+    -   Do not add a comma after the last property-value pair.
+    -   Place the closing bracket on a new line, without leading spaces.
+    -   Always end an object definition with a semicolon.
+
+    var person = {
+      firstName: "John",
+      lastName: "Doe",
+      age" 50,
+      eyeColor: "blue",  
+    };
+
+Short objects can be written compressed, on line, using spaces only between properties,like this:
+
+    var person = {firstName: "John", lastName:"Doe", age:50, eyeClor:"blue"};
+
+
+Line Length < 80
+
+for readability, avoid lines longer than 80 charactors.
+
+If a JavaScript statement does not fit on one line, the best place to break it, is after an operator or comma.
+
+Naming conventions
+
+Always use the same naming convention for all your code. For example:
+
+    -   Variable and function names written as camelCase.
+    -   Global variables written in UPPERCASE (We don't, but it's quite common)
+    -   Constants(like PI) written in UPPERCASE
+
+Hyphens in HTML and CSS:
+
+HTML5 attributes can start with data-(data-quantity,data-price).
+CSS uses hyphens in property-names(font-size).
+
+Hyphens can be mistaken as subtraction attempts. Hyphens are not allowed in JavaScript names.
+
+
+
+
+
+
+
+
+
+
+
