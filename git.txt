@@ -4,8 +4,8 @@
     2. ทำให้ัโฟล์เดอร์ เป็น repository โดยใชัคำสั่ง git init 
     โดย git จะสร้าง hidden folder ที่ชื่อว่า git
     3. ตรวจสอบสถานะของโฟล์เดอร์โดยใช้คำสั่ง git status
-    4. ทำให้ไฟล์ถูก track โดยใชัคำสั่ง git add 'file name'
-    5. 
+    4. ทำให้ไฟล์ถูก track โดยใชัคำสั่ง git add 'file name' (git add ("file name"))
+    5. commit file เพื่อเก็บใน repository (git commit "massage")
 
  การใช้งาน github ใน vscode
     
