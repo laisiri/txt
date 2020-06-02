@@ -7,7 +7,8 @@
     4. ทำให้ไฟล์ถูก track โดยใชัคำสั่ง git add 'file name'
     5. 
 
- การใช้งาน github
+ การใช้งาน github ใน vscode
     
     1. สร้าง repository ใหม่
-    2. 
+    2. เปิด terminal ใน vscode ( ctrl + ` )
+    3. 
