@@ -11,4 +11,5 @@
     
     1. สร้าง repository ใหม่
     2. เปิด terminal ใน vscode ( ctrl + ` )
-    3. 
+    3. copy คำสั้งจาก github 
+    
