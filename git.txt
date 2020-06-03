@@ -6,6 +6,17 @@
     3. ตรวจสอบสถานะของโฟล์เดอร์โดยใช้คำสั่ง git status
     4. ทำให้ไฟล์ถูก track โดยใชัคำสั่ง git add 'file name' (git add ("file name"))
     5. commit file เพื่อเก็บใน repository (git commit "massage")
+ git  status ของไฟล์ 5 แบบ ใน git
+    1. Untracked สถานะไฟล์ยังไม่ได้ถูกเก็บในระบบ GIT
+    2. Working Directory สถานะทีมีการเปลี่ยนแปลงหรือแก้ไขไฟล์
+    3. Staged สถานะเตรียม commit เพื่อยืนยันการเป
+
+    
+
+
+    
+
+
 
  การใช้งาน github ใน vscode
     
