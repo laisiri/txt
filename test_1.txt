@@ -1,2 +1,0 @@
-This is test git and use cmd line.
-This is append second line.
